@@ -1,0 +1,27 @@
+{
+  "name": "simple-ruleapi",
+  "version": "1.0.0",
+  "description": "Simple rule evaluation API (based on JSON rules engine)",
+  "main": "index.js",
+  "scripts": {
+    "cdk": "cdk",
+    "deploy": "cdk deploy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sergiokhayyat/simple-ruleapi.git"
+  },
+  "author": "Sergio Khayyat",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sergiokhayyat/simple-ruleapi/issues"
+  },
+  "homepage": "https://github.com/sergiokhayyat/simple-ruleapi#readme",
+  "dependencies": {
+    "json-rules-engine": "^7.3.1"
+  },
+  "devDependencies": {
+    "aws-cdk-lib": "^2.0.0",
+    "constructs": "^10.0.0"
+  }
+}
