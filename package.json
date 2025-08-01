@@ -2,26 +2,41 @@
   "name": "simple-ruleapi",
   "version": "1.0.0",
   "description": "Simple rule evaluation API (based on JSON rules engine)",
-  "main": "index.js",
-  "scripts": {
-    "cdk": "cdk",
-    "deploy": "cdk deploy"
+  "keywords": [],
+  "author": "Sergio Khayyat",
+  "license": "MIT",
+  "homepage": "https://github.com/sergiokhayyat/simple-ruleapi#readme",
+  "bugs": {
+    "url": "https://github.com/sergiokhayyat/simple-ruleapi/issues"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sergiokhayyat/simple-ruleapi.git"
   },
-  "author": "Sergio Khayyat",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/sergiokhayyat/simple-ruleapi/issues"
-  },
-  "homepage": "https://github.com/sergiokhayyat/simple-ruleapi#readme",
   "dependencies": {
+    "aws-cdk-lib": "^2.206.0",
+    "constructs": "^10.4.2",
     "json-rules-engine": "^7.3.1"
   },
   "devDependencies": {
-    "aws-cdk-lib": "^2.0.0",
-    "constructs": "^10.0.0"
+    "aws-cdk": "2.1023.0",
+    "aws-cdk-lib": "^2.208.0",
+    "constructs": "^10.4.2",
+    "esbuild": "^0.25.8",
+    "jest": "^29.7.0"
+  },
+  "bin": {
+    "simple-ruleapi": "bin/simple-ruleapi.js"
+  },
+  "scripts": {
+    "build": "echo \"The build step is not required when using JavaScript!\" && exit 0",
+    "cdk": "cdk",
+    "test": "jest",
+    "deploy": "cdk deploy"
+  },
+  "main": "jest.config.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
   }
 }
