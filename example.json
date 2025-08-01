@@ -32,7 +32,7 @@
             }
         }
     ],
-    "fact": {
+    "facts": {
         "personalFoulCount": 6,
         "gameDuration": 40
     }

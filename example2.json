@@ -1,0 +1,20 @@
+{
+  "rules": [{
+    "conditions": {
+      "all": [{
+        "fact": "age",
+        "operator": "greaterThan",
+        "value": 18
+      }]
+    },
+    "event": {
+      "type": "is-adult",
+      "params": {
+        "message": "El usuario es mayor de edad"
+      }
+    }
+  }],
+  "facts": {
+    "age": 20
+  }
+}
